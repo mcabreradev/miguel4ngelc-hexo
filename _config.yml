@@ -3,16 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Migue's blog
 subtitle:
-description:
-author: John Doe
-language:
-timezone:
+description: Blog personal, tips, datos, y mucha informacion sobre la vida, viajes, y offtopics, ported by Migue Cabrera. Powered by Hexo
+timezone: America/Buenos_Aires
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://miguel4ngelc.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,9 +70,38 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: anatole
+
+# Anatale config
+archive_generator:
+  per_page: 0  
+  yearly: false
+  monthly: false
+  daily: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo:
+    github: git@github.com:miguel4ngelc/miguel4ngelc.github.io.git,master
+  message: rebuilding site
+  name: Miguelangel Cabrera
+  email: mcabrera.dev@gmail.com
+
+# Blog
+keywords: Hexo,HTML,CSS,android,Linux,Laravel,Viajes,Trips,Tegnologia,Tech,Javascript,Nodejs,Webpack,Gulp,ES6
+avatar: /images/favicon.png
+
+# Social Accounts
+twitter: miguel4ngelc
+rss: 
+weibo: 
+instagram: miguel4ngelc
+github: miguel4ngelc
+facebook: miguel4ngelc
+
+# Comment
+duoshuo: 
+disqus: 
+gentie: 
